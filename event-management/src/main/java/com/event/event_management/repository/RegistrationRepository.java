@@ -11,6 +11,11 @@ public interface RegistrationRepository
             String studentEmail,
             Long eventId
     );
+    Optional<Registration> findByStudentEmailAndEventId(
+            String studentEmail,
+            Long eventId
+    );
+
     Optional<Registration> findByStudentNameAndStudentEmail(
             String studentName,
             String studentEmail

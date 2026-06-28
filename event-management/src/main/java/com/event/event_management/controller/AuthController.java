@@ -32,7 +32,8 @@ public class AuthController {
 
         return jwtUtil.generateToken(
                 user.getEmail(),
-                user.getRole().name()
+                user.getRole().name(),
+                user.getName()
         );
     }
 

@@ -121,4 +121,16 @@ public class RegistrationController {
         workbook.write(response.getOutputStream());
         workbook.close();
     }
+
+    @Operation(
+            summary = "Unregister from Event",
+            security = @SecurityRequirement(name = "bearerAuth")
+    )
+    @DeleteMapping("/event/{eventId}")
+    public String unregister(@PathVariable Long eventId) {
+        String email = org.springframework.security.core.context.SecurityContextHolder.getContext()
+                .getAuthentication().getName();
+        registrationService.unregister(email, eventId);
+        return "Unregistered successfully";
+    }
 }

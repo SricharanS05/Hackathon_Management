@@ -31,7 +31,7 @@ public class RateLimitFilter extends OncePerRequestFilter {
         String uri = request.getRequestURI();
 
         // Apply rate limiting only for login
-        if (uri.equals("/auth/login")) {
+        if (uri.equals("/auth/login") && !"OPTIONS".equalsIgnoreCase(request.getMethod())) {
 
             String clientIp = request.getRemoteAddr();
 

@@ -1,0 +1,864 @@
+2026-06-28 18:42:01 [INFO] com.event.event_management.EventManagementApplicationTests - Starting EventManagementApplicationTests using Java 24.0.2 with PID 31424 (started by shanjaiysamarjith in D:\event-management\event-management)
+2026-06-28 18:42:01 [DEBUG] com.event.event_management.EventManagementApplicationTests - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-28 18:42:01 [INFO] com.event.event_management.EventManagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-06-28 18:42:03 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-28 18:42:04 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 138 ms. Found 5 JPA repository interfaces.
+2026-06-28 18:42:05 [INFO] org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-28 18:42:05 [INFO] org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-28 18:42:06 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-28 18:42:06 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-28 18:42:06 [INFO] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a45c218
+2026-06-28 18:42:06 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-28 18:42:07 [WARN] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-28 18:42:07 [INFO] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/event_management]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: event_management/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-28 18:42:08 [INFO] org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-28 18:42:08 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-28 18:42:09 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-28 18:42:09 [WARN] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-28 18:42:10 [WARN] org.springframework.boot.security.autoconfigure.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 95b5d362-a9f0-465e-8d68-3feba92d9767
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-06-28 18:42:10 [INFO] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-06-28 18:42:10 [DEBUG] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RateLimitFilter, JwtFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-28 18:42:12 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 14 endpoints beneath base path '/actuator'
+2026-06-28 18:42:12 [INFO] com.event.event_management.EventManagementApplicationTests - Started EventManagementApplicationTests in 11.332 seconds (process running for 13.126)
+2026-06-28 18:42:13 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-28 18:42:13 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-28 18:42:13 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-28 18:47:14 [INFO] com.event.event_management.EventManagementApplicationTests - Starting EventManagementApplicationTests using Java 24.0.2 with PID 21924 (started by shanjaiysamarjith in D:\event-management\event-management)
+2026-06-28 18:47:14 [DEBUG] com.event.event_management.EventManagementApplicationTests - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-28 18:47:14 [INFO] com.event.event_management.EventManagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-06-28 18:47:17 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-28 18:47:17 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 204 ms. Found 5 JPA repository interfaces.
+2026-06-28 18:47:19 [INFO] org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-28 18:47:19 [INFO] org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-28 18:47:20 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-28 18:47:20 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-28 18:47:21 [INFO] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68fc636a
+2026-06-28 18:47:21 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-28 18:47:21 [WARN] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-28 18:47:21 [INFO] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/event_management]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: event_management/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-28 18:47:23 [INFO] org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-28 18:47:23 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-28 18:47:23 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-28 18:47:24 [WARN] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-28 18:47:25 [WARN] org.springframework.boot.security.autoconfigure.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 9b6e9194-2f7c-4f15-83cc-a43be375b089
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-06-28 18:47:25 [INFO] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-06-28 18:47:25 [DEBUG] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, RateLimitFilter, JwtFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-28 18:47:27 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 14 endpoints beneath base path '/actuator'
+2026-06-28 18:47:27 [INFO] com.event.event_management.EventManagementApplicationTests - Started EventManagementApplicationTests in 14.177 seconds (process running for 18.074)
+2026-06-28 18:47:28 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-28 18:47:28 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-28 18:47:28 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-28 18:51:49 [INFO] com.event.event_management.EventManagementApplication - Starting EventManagementApplication using Java 24.0.2 with PID 40876 (D:\event-management\event-management\target\classes started by shanjaiysamarjith in D:\event-management\event-management)
+2026-06-28 18:51:49 [DEBUG] com.event.event_management.EventManagementApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-28 18:51:49 [INFO] com.event.event_management.EventManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-28 18:51:51 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-28 18:51:51 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 5 JPA repository interfaces.
+2026-06-28 18:51:51 [INFO] org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-28 18:51:51 [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-28 18:51:51 [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-28 18:51:51 [INFO] org.springframework.boot.web.context.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1835 ms
+2026-06-28 18:51:52 [DEBUG] com.event.event_management.config.RateLimitFilter - Filter 'rateLimitFilter' configured for use
+2026-06-28 18:51:52 [DEBUG] com.event.event_management.security.JwtFilter - Filter 'jwtFilter' configured for use
+2026-06-28 18:51:52 [INFO] org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-28 18:51:52 [INFO] org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-28 18:51:52 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-28 18:51:52 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-28 18:51:52 [INFO] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f5167f0
+2026-06-28 18:51:52 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-28 18:51:53 [WARN] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-28 18:51:53 [INFO] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/event_management]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: event_management/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-28 18:51:54 [INFO] org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-28 18:51:54 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-28 18:51:54 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-28 18:51:54 [WARN] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-28 18:51:54 [WARN] org.springframework.boot.security.autoconfigure.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 002ea481-64da-4c2d-a6f4-ecd4a60c606b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-06-28 18:51:54 [INFO] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-06-28 18:51:54 [DEBUG] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, RateLimitFilter, JwtFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-28 18:51:55 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 14 endpoints beneath base path '/actuator'
+2026-06-28 18:51:55 [WARN] org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-06-28 18:51:55 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-28 18:51:55 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-28 18:51:55 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-28 18:51:55 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-28 18:51:55 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-06-28 18:54:53 [INFO] com.event.event_management.EventManagementApplicationTests - Starting EventManagementApplicationTests using Java 24.0.2 with PID 37224 (started by shanjaiysamarjith in D:\event-management\event-management)
+2026-06-28 18:54:53 [DEBUG] com.event.event_management.EventManagementApplicationTests - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-28 18:54:53 [INFO] com.event.event_management.EventManagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-06-28 18:54:55 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-28 18:54:55 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 123 ms. Found 5 JPA repository interfaces.
+2026-06-28 18:54:57 [INFO] org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-28 18:54:57 [INFO] org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-28 18:54:57 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-28 18:54:58 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-28 18:54:58 [INFO] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68fc636a
+2026-06-28 18:54:58 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-28 18:54:59 [WARN] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-28 18:54:59 [INFO] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/event_management]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: event_management/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-28 18:55:00 [INFO] org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-28 18:55:00 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-28 18:55:01 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-28 18:55:02 [WARN] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-28 18:55:02 [WARN] org.springframework.boot.security.autoconfigure.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 17aedd8f-a7bd-43f6-927e-4d66ed6607eb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-06-28 18:55:02 [INFO] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-06-28 18:55:02 [DEBUG] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, RateLimitFilter, JwtFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-28 18:55:04 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 14 endpoints beneath base path '/actuator'
+2026-06-28 18:55:04 [INFO] com.event.event_management.EventManagementApplicationTests - Started EventManagementApplicationTests in 11.279 seconds (process running for 13.22)
+2026-06-28 18:55:04 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-28 18:55:04 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-28 18:55:04 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-28 18:56:01 [INFO] com.event.event_management.EventManagementApplication - Starting EventManagementApplication using Java 24.0.2 with PID 38416 (D:\event-management\event-management\target\classes started by shanjaiysamarjith in D:\event-management\event-management)
+2026-06-28 18:56:01 [DEBUG] com.event.event_management.EventManagementApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-28 18:56:01 [INFO] com.event.event_management.EventManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-28 18:56:02 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-28 18:56:02 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 5 JPA repository interfaces.
+2026-06-28 18:56:03 [INFO] org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-28 18:56:03 [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-28 18:56:03 [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-28 18:56:03 [INFO] org.springframework.boot.web.context.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2148 ms
+2026-06-28 18:56:03 [DEBUG] com.event.event_management.config.RateLimitFilter - Filter 'rateLimitFilter' configured for use
+2026-06-28 18:56:03 [DEBUG] com.event.event_management.security.JwtFilter - Filter 'jwtFilter' configured for use
+2026-06-28 18:56:03 [INFO] org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-28 18:56:03 [INFO] org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-28 18:56:04 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-28 18:56:04 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-28 18:56:04 [INFO] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66a8ff6d
+2026-06-28 18:56:04 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-28 18:56:04 [WARN] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-28 18:56:04 [INFO] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/event_management]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: event_management/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-28 18:56:05 [INFO] org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-28 18:56:05 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-28 18:56:05 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-28 18:56:05 [WARN] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-28 18:56:05 [WARN] org.springframework.boot.security.autoconfigure.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 2b2277d3-c212-4e01-bb4c-a7610851b604
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-06-28 18:56:05 [INFO] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-06-28 18:56:06 [DEBUG] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, RateLimitFilter, JwtFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-28 18:56:06 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 14 endpoints beneath base path '/actuator'
+2026-06-28 18:56:06 [INFO] org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-28 18:56:06 [INFO] com.event.event_management.EventManagementApplication - Started EventManagementApplication in 6.138 seconds (process running for 6.47)
+2026-06-28 18:56:12 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-28 18:56:12 [INFO] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-28 18:56:12 [INFO] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-06-28 18:56:12 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing POST /auth/register
+2026-06-28 18:56:12 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured POST /auth/register
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing POST /auth/login
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured POST /auth/login
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing POST /auth/register
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured POST /auth/register
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing POST /auth/login
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured POST /auth/login
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing POST /auth/register
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured POST /auth/register
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing POST /auth/login
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured POST /auth/login
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /dashboard
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.access.AccessDeniedHandlerImpl - Responding with 403 status code
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /error
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.savedrequest.HttpSessionRequestCache - Saved request http://localhost:8080/error?continue to session
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /dashboard
+2026-06-28 18:56:13 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /dashboard
+2026-06-28 18:56:14 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing POST /events
+2026-06-28 18:56:14 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured POST /events
+2026-06-28 18:56:14 [INFO] com.event.event_management.controller.EventController - Creating event Verify Hackathon 1782653172761
+2026-06-28 18:56:14 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 18:56:14 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 18:56:14 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 18:56:14 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events/3
+2026-06-28 18:56:14 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events/3
+2026-06-28 18:56:14 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 18:56:14 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing PUT /events/3
+2026-06-28 18:56:14 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured PUT /events/3
+2026-06-28 18:56:14 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing POST /registrations
+2026-06-28 18:56:14 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured POST /registrations
+2026-06-28 18:56:18 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 18:56:18 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 18:56:18 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations/export/csv
+2026-06-28 18:56:18 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations/export/csv
+2026-06-28 18:56:18 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations/export/excel
+2026-06-28 18:56:18 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations/export/excel
+2026-06-28 18:56:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing POST /teams
+2026-06-28 18:56:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured POST /teams
+2026-06-28 18:56:19 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 18:56:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 18:56:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 18:56:19 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 18:56:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams/join/TEAM-6a4f28
+2026-06-28 18:56:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams/join/TEAM-6a4f28
+2026-06-28 18:56:19 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 18:56:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /qr/student_1782653172761@verify.com/3
+2026-06-28 18:56:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /qr/student_1782653172761@verify.com/3
+2026-06-28 18:56:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing POST /qr-attendance?email=student_1782653172761%40verify.com&eventId=3
+2026-06-28 18:56:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured POST /qr-attendance?email=student_1782653172761%40verify.com&eventId=3
+2026-06-28 18:56:23 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing POST /qr-attendance?email=student_1782653172761%40verify.com&eventId=3
+2026-06-28 18:56:23 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured POST /qr-attendance?email=student_1782653172761%40verify.com&eventId=3
+2026-06-28 18:56:23 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /attendance
+2026-06-28 18:56:23 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /attendance
+2026-06-28 18:56:23 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /certificate/Test Student/student_1782653172761@verify.com
+2026-06-28 18:56:23 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /certificate/Test Student/student_1782653172761@verify.com
+2026-06-28 18:56:28 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /dashboard
+2026-06-28 18:56:28 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /dashboard
+2026-06-28 18:56:28 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing DELETE /events/3
+2026-06-28 18:56:28 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured DELETE /events/3
+2026-06-28 18:57:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /dashboard
+2026-06-28 18:57:46 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 18:57:46 [DEBUG] org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-06-28 18:57:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /error
+2026-06-28 18:57:46 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 18:57:46 [DEBUG] org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-06-28 18:58:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /auth/register
+2026-06-28 18:58:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing POST /auth/register
+2026-06-28 18:58:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured POST /auth/register
+2026-06-28 18:58:48 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:03:45 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /auth/register
+2026-06-28 19:03:45 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing POST /auth/register
+2026-06-28 19:03:45 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured POST /auth/register
+2026-06-28 19:03:45 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:04:07 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /auth/register
+2026-06-28 19:04:07 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing POST /auth/register
+2026-06-28 19:04:07 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured POST /auth/register
+2026-06-28 19:04:07 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:04:12 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /auth/login
+2026-06-28 19:04:12 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing POST /auth/login
+2026-06-28 19:04:12 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured POST /auth/login
+2026-06-28 19:04:12 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:04:12 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:04:12 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:04:12 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:04:12 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:04:12 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:04:12 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:04:12 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:04:12 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:04:12 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:04:35 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:04:35 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:04:35 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:04:35 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:04:35 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:04:35 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:04:38 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:04:38 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing POST /registrations
+2026-06-28 19:04:38 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured POST /registrations
+2026-06-28 19:04:43 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:04:43 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:04:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:04:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:04:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:04:57 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:04:57 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /attendance
+2026-06-28 19:04:57 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:04:57 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:04:57 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /attendance
+2026-06-28 19:04:57 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:04:57 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:04:57 [DEBUG] org.springframework.security.web.access.AccessDeniedHandlerImpl - Responding with 403 status code
+2026-06-28 19:04:57 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /error
+2026-06-28 19:04:57 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:04:57 [DEBUG] org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-06-28 19:04:57 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:04:58 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /attendance
+2026-06-28 19:04:58 [DEBUG] org.springframework.security.web.access.AccessDeniedHandlerImpl - Responding with 403 status code
+2026-06-28 19:04:58 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /error
+2026-06-28 19:04:58 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:04:58 [DEBUG] org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-06-28 19:04:59 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /certificate/shanjaiy.samarjith.dev@gmail.com/shanjaiy.samarjith.dev@gmail.com
+2026-06-28 19:04:59 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /certificate/shanjaiy.samarjith.dev@gmail.com/shanjaiy.samarjith.dev@gmail.com
+2026-06-28 19:04:59 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /certificate/shanjaiy.samarjith.dev@gmail.com/shanjaiy.samarjith.dev@gmail.com
+2026-06-28 19:05:18 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:05:18 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:05:18 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:05:18 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:05:18 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:05:18 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:05:18 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:05:18 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:05:18 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:05:33 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:05:33 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:05:33 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:05:33 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:05:33 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:05:33 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:05:34 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:05:34 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:05:34 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:05:39 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:05:39 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /attendance
+2026-06-28 19:05:39 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:05:39 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:05:39 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:05:39 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /attendance
+2026-06-28 19:05:39 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:05:39 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:05:39 [DEBUG] org.springframework.security.web.access.AccessDeniedHandlerImpl - Responding with 403 status code
+2026-06-28 19:05:39 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /error
+2026-06-28 19:05:39 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:05:39 [DEBUG] org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-06-28 19:05:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /attendance
+2026-06-28 19:05:40 [DEBUG] org.springframework.security.web.access.AccessDeniedHandlerImpl - Responding with 403 status code
+2026-06-28 19:05:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /error
+2026-06-28 19:05:40 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:05:40 [DEBUG] org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-06-28 19:05:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /certificate/shanjaiy.samarjith.dev@gmail.com/shanjaiy.samarjith.dev@gmail.com
+2026-06-28 19:05:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /certificate/shanjaiy.samarjith.dev@gmail.com/shanjaiy.samarjith.dev@gmail.com
+2026-06-28 19:05:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /certificate/shanjaiy.samarjith.dev@gmail.com/shanjaiy.samarjith.dev@gmail.com
+2026-06-28 19:05:51 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:05:51 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:05:51 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:05:51 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:05:51 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:05:51 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:05:51 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:05:51 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:05:51 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:05:52 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:05:52 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:05:52 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:05:52 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:05:54 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:05:54 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:06:00 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /attendance
+2026-06-28 19:06:00 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:06:00 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:06:00 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:06:00 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /attendance
+2026-06-28 19:06:00 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:06:00 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:06:00 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:06:00 [DEBUG] org.springframework.security.web.access.AccessDeniedHandlerImpl - Responding with 403 status code
+2026-06-28 19:06:00 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /error
+2026-06-28 19:06:00 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:06:00 [DEBUG] org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-06-28 19:06:01 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /attendance
+2026-06-28 19:06:01 [DEBUG] org.springframework.security.web.access.AccessDeniedHandlerImpl - Responding with 403 status code
+2026-06-28 19:06:01 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /error
+2026-06-28 19:06:01 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:06:01 [DEBUG] org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-06-28 19:06:41 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:06:41 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:06:41 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:06:41 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:06:41 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:06:41 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:06:41 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:06:41 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:06:41 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:06:44 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /qr/shanjaiy.samarjith.dev@gmail.com/1
+2026-06-28 19:06:44 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /qr/shanjaiy.samarjith.dev@gmail.com/1
+2026-06-28 19:06:44 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /qr/shanjaiy.samarjith.dev@gmail.com/1
+2026-06-28 19:06:50 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /qr/shanjaiy.samarjith.dev@gmail.com/1
+2026-06-28 19:06:50 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /qr/shanjaiy.samarjith.dev@gmail.com/1
+2026-06-28 19:06:50 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /qr/shanjaiy.samarjith.dev@gmail.com/1
+2026-06-28 19:07:26 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:07:26 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:07:26 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:07:26 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:07:26 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:07:26 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:07:28 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:07:28 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events/2
+2026-06-28 19:07:28 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events/2
+2026-06-28 19:07:28 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:07:28 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events/2
+2026-06-28 19:07:33 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:07:33 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:07:33 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:07:33 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:07:33 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:07:33 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:07:37 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events/1
+2026-06-28 19:07:37 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:07:37 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events/1
+2026-06-28 19:07:37 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:07:37 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events/1
+2026-06-28 19:07:38 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:07:38 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:07:38 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:07:38 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:07:38 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:07:38 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:07:41 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:07:41 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:07:41 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:07:55 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:07:55 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:07:55 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:08:04 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams/join/TEAM-CF32E4
+2026-06-28 19:08:04 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams/join/TEAM-CF32E4
+2026-06-28 19:08:04 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams/join/TEAM-CF32E4
+2026-06-28 19:08:04 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:08:04 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:08:04 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:08:29 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:08:29 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing POST /teams
+2026-06-28 19:08:29 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured POST /teams
+2026-06-28 19:08:29 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:08:29 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:08:36 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:08:36 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:08:36 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:08:36 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:08:36 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:08:36 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:08:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events/1
+2026-06-28 19:08:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:08:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events/1
+2026-06-28 19:08:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:08:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events/1
+2026-06-28 19:08:43 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:08:43 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:08:43 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:08:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:08:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /attendance
+2026-06-28 19:08:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:08:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:08:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:08:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /attendance
+2026-06-28 19:08:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:08:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:08:46 [DEBUG] org.springframework.security.web.access.AccessDeniedHandlerImpl - Responding with 403 status code
+2026-06-28 19:08:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /error
+2026-06-28 19:08:46 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:08:46 [DEBUG] org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-06-28 19:08:47 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /attendance
+2026-06-28 19:08:47 [DEBUG] org.springframework.security.web.access.AccessDeniedHandlerImpl - Responding with 403 status code
+2026-06-28 19:08:47 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /error
+2026-06-28 19:08:47 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:08:47 [DEBUG] org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-06-28 19:08:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /certificate/shanjaiy.samarjith.dev@gmail.com/shanjaiy.samarjith.dev@gmail.com
+2026-06-28 19:08:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /certificate/shanjaiy.samarjith.dev@gmail.com/shanjaiy.samarjith.dev@gmail.com
+2026-06-28 19:08:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /certificate/shanjaiy.samarjith.dev@gmail.com/shanjaiy.samarjith.dev@gmail.com
+2026-06-28 19:09:56 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:09:56 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:09:56 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:09:58 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:09:58 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:09:58 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:09:58 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:09:58 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:09:58 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:09:59 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:09:59 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:09:59 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:09:59 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:09:59 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:09:59 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:10:04 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:10:04 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing POST /registrations
+2026-06-28 19:10:04 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured POST /registrations
+2026-06-28 19:10:10 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:10:10 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:10:10 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:10:13 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /qr/shanjaiy.samarjith.dev@gmail.com/2
+2026-06-28 19:10:13 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /qr/shanjaiy.samarjith.dev@gmail.com/2
+2026-06-28 19:10:13 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /qr/shanjaiy.samarjith.dev@gmail.com/2
+2026-06-28 19:10:16 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /qr/shanjaiy.samarjith.dev@gmail.com/2
+2026-06-28 19:10:16 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /qr/shanjaiy.samarjith.dev@gmail.com/2
+2026-06-28 19:10:33 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:10:33 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:10:33 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:10:36 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:10:36 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:10:36 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:10:36 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:10:36 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:10:36 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:10:37 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events/1
+2026-06-28 19:10:37 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:10:37 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:10:37 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events/1
+2026-06-28 19:10:37 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events/1
+2026-06-28 19:10:39 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:10:39 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:10:39 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:10:39 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:10:42 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events/2
+2026-06-28 19:10:42 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:10:42 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events/2
+2026-06-28 19:10:42 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:10:42 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:10:42 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events/2
+2026-06-28 19:10:45 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:10:45 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:10:45 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:10:47 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:10:47 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:10:47 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:10:47 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:10:47 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:10:47 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:10:47 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:10:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:10:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:10:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:10:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:10:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:11:03 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:11:03 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:11:03 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:11:05 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:11:05 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:11:05 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:11:05 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:11:05 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:11:05 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:11:08 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:11:08 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events/2
+2026-06-28 19:11:08 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:11:08 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events/2
+2026-06-28 19:11:08 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events/2
+2026-06-28 19:11:14 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:11:14 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:11:14 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:11:14 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:11:14 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:11:14 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:11:14 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:11:14 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:11:14 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:11:20 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /qr/shanjaiy.samarjith.dev@gmail.com/1
+2026-06-28 19:11:20 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /qr/shanjaiy.samarjith.dev@gmail.com/1
+2026-06-28 19:11:20 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /qr/shanjaiy.samarjith.dev@gmail.com/1
+2026-06-28 19:12:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:12:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /attendance
+2026-06-28 19:12:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:12:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:12:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:12:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /attendance
+2026-06-28 19:12:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:12:46 [DEBUG] org.springframework.security.web.access.AccessDeniedHandlerImpl - Responding with 403 status code
+2026-06-28 19:12:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /error
+2026-06-28 19:12:46 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:12:46 [DEBUG] org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-06-28 19:12:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:12:47 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /attendance
+2026-06-28 19:12:47 [DEBUG] org.springframework.security.web.access.AccessDeniedHandlerImpl - Responding with 403 status code
+2026-06-28 19:12:47 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /error
+2026-06-28 19:12:47 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:12:47 [DEBUG] org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-06-28 19:14:04 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /certificate/shanjaiy.samarjith.dev@gmail.com/shanjaiy.samarjith.dev@gmail.com
+2026-06-28 19:14:04 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /certificate/shanjaiy.samarjith.dev@gmail.com/shanjaiy.samarjith.dev@gmail.com
+2026-06-28 19:14:04 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /certificate/shanjaiy.samarjith.dev@gmail.com/shanjaiy.samarjith.dev@gmail.com
+2026-06-28 19:14:16 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:14:16 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:14:16 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:14:16 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:14:16 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:14:16 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:14:18 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:14:18 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:14:18 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:14:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:14:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:14:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:14:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:14:42 [INFO] com.event.event_management.EventManagementApplication - Starting EventManagementApplication using Java 24.0.2 with PID 24288 (D:\event-management\event-management\target\classes started by shanjaiysamarjith in D:\event-management\event-management)
+2026-06-28 19:14:42 [DEBUG] com.event.event_management.EventManagementApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-28 19:14:42 [INFO] com.event.event_management.EventManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-28 19:14:43 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-28 19:14:43 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 5 JPA repository interfaces.
+2026-06-28 19:14:44 [INFO] org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-28 19:14:44 [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-28 19:14:44 [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-28 19:14:44 [INFO] org.springframework.boot.web.context.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1600 ms
+2026-06-28 19:14:44 [DEBUG] com.event.event_management.config.RateLimitFilter - Filter 'rateLimitFilter' configured for use
+2026-06-28 19:14:44 [DEBUG] com.event.event_management.security.JwtFilter - Filter 'jwtFilter' configured for use
+2026-06-28 19:14:44 [INFO] org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-28 19:14:44 [INFO] org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-28 19:14:45 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-28 19:14:45 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-28 19:14:45 [INFO] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f5167f0
+2026-06-28 19:14:45 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-28 19:14:46 [WARN] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-28 19:14:46 [INFO] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/event_management]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: event_management/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-28 19:14:47 [INFO] org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-28 19:14:47 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-28 19:14:47 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-28 19:14:47 [WARN] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-28 19:14:47 [WARN] org.springframework.boot.security.autoconfigure.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 48acf07c-10ab-4189-b55c-c1e87b7ee10f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-06-28 19:14:47 [INFO] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-06-28 19:14:47 [DEBUG] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, RateLimitFilter, JwtFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-28 19:14:48 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 14 endpoints beneath base path '/actuator'
+2026-06-28 19:14:48 [INFO] org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-28 19:14:48 [INFO] com.event.event_management.EventManagementApplication - Started EventManagementApplication in 6.224 seconds (process running for 6.953)
+2026-06-28 19:16:26 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-28 19:16:26 [INFO] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-28 19:16:26 [INFO] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-06-28 19:16:26 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /dashboard
+2026-06-28 19:16:26 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:16:26 [DEBUG] org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-06-28 19:16:26 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /error
+2026-06-28 19:16:26 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:16:26 [DEBUG] org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-06-28 19:17:15 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /auth/login
+2026-06-28 19:17:15 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing POST /auth/login
+2026-06-28 19:17:15 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured POST /auth/login
+2026-06-28 19:17:17 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:17:17 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:17:17 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:17:17 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:17:17 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:17:17 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:17:17 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:17:17 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:17:17 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:17:17 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:17:26 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:17:26 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:17:26 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:17:26 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:17:26 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:17:26 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:17:29 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:17:29 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:17:29 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:17:29 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:17:29 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:17:29 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:17:29 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:17:30 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /qr/shanjaiy.samarjith.dev@gmail.com/1
+2026-06-28 19:17:30 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /qr/shanjaiy.samarjith.dev@gmail.com/1
+2026-06-28 19:17:30 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /qr/shanjaiy.samarjith.dev@gmail.com/1
+2026-06-28 19:17:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:17:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:17:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:17:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:17:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:17:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:17:42 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events/1
+2026-06-28 19:17:42 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:17:42 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events/1
+2026-06-28 19:17:42 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:17:43 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events/1
+2026-06-28 19:17:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:17:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:17:46 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:17:47 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /attendance
+2026-06-28 19:17:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:17:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:17:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /attendance
+2026-06-28 19:17:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:17:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:17:48 [DEBUG] org.springframework.security.web.access.AccessDeniedHandlerImpl - Responding with 403 status code
+2026-06-28 19:17:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /error
+2026-06-28 19:17:48 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:17:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:17:48 [DEBUG] org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-06-28 19:17:48 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:17:49 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /attendance
+2026-06-28 19:17:49 [DEBUG] org.springframework.security.web.access.AccessDeniedHandlerImpl - Responding with 403 status code
+2026-06-28 19:17:49 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /error
+2026-06-28 19:17:49 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:17:49 [DEBUG] org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-06-28 19:18:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /certificate/Shanjaiy Samarjith/shanjaiy.samarjith.dev@gmail.com
+2026-06-28 19:18:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /certificate/Shanjaiy Samarjith/shanjaiy.samarjith.dev@gmail.com
+2026-06-28 19:18:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /certificate/Shanjaiy Samarjith/shanjaiy.samarjith.dev@gmail.com
+2026-06-28 19:19:07 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /certificate/Shanjaiy Samarjith/shanjaiy.samarjith.dev@gmail.com
+2026-06-28 19:19:07 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /certificate/Shanjaiy Samarjith/shanjaiy.samarjith.dev@gmail.com
+2026-06-28 19:19:07 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /certificate/Shanjaiy Samarjith/shanjaiy.samarjith.dev@gmail.com
+2026-06-28 19:19:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:19:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:19:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:19:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:19:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:19:19 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:19:25 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:19:25 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:19:25 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:20:09 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:20:09 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing POST /teams
+2026-06-28 19:20:09 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured POST /teams
+2026-06-28 19:20:09 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:20:09 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:20:20 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:20:20 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:20:20 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:20:20 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:20:20 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:20:20 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:20:22 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events/2
+2026-06-28 19:20:22 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:20:22 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events/2
+2026-06-28 19:20:22 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:20:22 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events/2
+2026-06-28 19:20:27 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:20:27 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:20:27 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:20:27 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:20:27 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:20:27 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:20:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:20:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:20:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:20:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:20:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:20:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:20:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:20:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:20:40 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:21:09 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:21:09 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:21:09 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:21:09 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:21:09 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:21:09 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:21:58 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:21:58 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:21:58 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:21:58 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:21:58 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:21:58 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:21:58 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:21:58 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:21:58 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:22:04 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:22:04 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:22:04 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:22:04 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:22:04 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:22:04 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:22:06 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:22:06 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:22:06 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:22:08 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /attendance
+2026-06-28 19:22:08 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:22:08 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:22:08 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /attendance
+2026-06-28 19:22:08 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations
+2026-06-28 19:22:08 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:22:08 [DEBUG] org.springframework.security.web.access.AccessDeniedHandlerImpl - Responding with 403 status code
+2026-06-28 19:22:08 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /error
+2026-06-28 19:22:08 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:22:08 [DEBUG] org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-06-28 19:22:09 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /attendance
+2026-06-28 19:22:09 [DEBUG] org.springframework.security.web.access.AccessDeniedHandlerImpl - Responding with 403 status code
+2026-06-28 19:22:09 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /error
+2026-06-28 19:22:09 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-06-28 19:22:09 [DEBUG] org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2026-06-28 19:22:17 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /teams
+2026-06-28 19:22:17 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /registrations
+2026-06-28 19:22:17 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing OPTIONS /events
+2026-06-28 19:22:17 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /teams
+2026-06-28 19:22:17 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /registrations
+2026-06-28 19:22:17 [DEBUG] org.springframework.security.web.FilterChainProxy - Securing GET /events
+2026-06-28 19:22:17 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /events
+2026-06-28 19:22:17 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /teams
+2026-06-28 19:22:17 [DEBUG] org.springframework.security.web.FilterChainProxy - Secured GET /registrations

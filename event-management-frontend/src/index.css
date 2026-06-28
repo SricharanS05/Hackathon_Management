@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 40% 98%;
+    --foreground: 224 71.4% 4.1%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 224 71.4% 4.1%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71.4% 4.1%;
+
+    --primary: 262 83% 58%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 220 14.3% 95.9%;
+    --secondary-foreground: 220.9 39.3% 11%;
+
+    --muted: 220 14.3% 95.9%;
+    --muted-foreground: 220 8.9% 46.1%;
+
+    --accent: 220 14.3% 95.9%;
+    --accent-foreground: 220.9 39.3% 11%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 262 83% 58%;
+
+    --radius: 1rem;
+  }
+
+  .dark {
+    --background: 224 71.4% 4.1%;
+    --foreground: 210 40% 98%;
+
+    --card: 224 71.4% 6.1%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 224 71.4% 6.1%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 263.4 70% 50.4%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 215 27.9% 16.9%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 215 27.9% 16.9%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 215 27.9% 16.9%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 215 27.9% 16.9%;
+    --input: 215 27.9% 16.9%;
+    --ring: 263.4 70% 50.4%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  body {
+    @apply bg-background text-foreground transition-colors duration-300 overflow-x-hidden antialiased;
+  }
+}
+
+/* Custom premium styling classes */
+@layer utilities {
+  .glass-panel {
+    @apply bg-white/70 dark:bg-card/70 backdrop-blur-md border border-white/20 dark:border-white/5 shadow-glass-md;
+  }
+  
+  .glass-card {
+    @apply bg-white/40 dark:bg-card/40 backdrop-blur-md border border-white/10 dark:border-white/5 shadow-glass-sm rounded-lg hover:shadow-glass-md transition-all duration-300;
+  }
+
+  .glass-input {
+    @apply bg-white/50 dark:bg-black/20 backdrop-blur-sm border border-white/20 dark:border-white/10 focus:border-primary/50 dark:focus:border-primary/50 focus:ring-2 focus:ring-primary/20 outline-none rounded-md transition-all duration-300;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-violet-600 via-indigo-600 to-pink-600 dark:from-violet-400 dark:via-indigo-400 dark:to-pink-400 bg-clip-text text-transparent;
+  }
+
+  .bg-gradient-premium {
+    @apply bg-gradient-to-br from-violet-500/10 via-indigo-500/5 to-pink-500/10 dark:from-violet-950/20 dark:via-indigo-950/10 dark:to-pink-950/20;
+  }
+  
+  .text-gradient-purple-pink {
+    @apply bg-gradient-to-r from-violet-500 to-pink-500 bg-clip-text text-transparent;
+  }
+}
+
+/* Custom animations & components */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-muted-foreground/20 rounded-full hover:bg-muted-foreground/35 transition-colors;
+}
+
+/* Premium noise overlay for deep dark mode textures */
+.noise-bg {
+  background-image: radial-gradient(at 0% 0%, rgba(124, 58, 237, 0.05) 0px, transparent 50%),
+                    radial-gradient(at 50% 0%, rgba(236, 72, 153, 0.03) 0px, transparent 50%),
+                    radial-gradient(at 100% 0%, rgba(99, 102, 241, 0.05) 0px, transparent 50%);
+}

@@ -84,4 +84,11 @@ public class RegistrationService {
 
         return saved;
     }
+
+    public void unregister(String email, Long eventId) {
+        Registration registration = registrationRepository
+                .findByStudentEmailAndEventId(email, eventId)
+                .orElseThrow(() -> new RuntimeException("Registration not found"));
+        registrationRepository.delete(registration);
+    }
 }
